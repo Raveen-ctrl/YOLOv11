@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Tea-Bud Sideview']
+
+roboflow:
+  workspace: raveen-zjzlw
+  project: tea-leaves-side-view
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/raveen-zjzlw/tea-leaves-side-view/dataset/1
